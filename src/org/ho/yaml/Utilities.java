@@ -22,8 +22,6 @@
  */
 package org.ho.yaml;
 
-import java.util.StringTokenizer;
-
 import org.ho.yaml.exception.YamlException;
 
 public class Utilities {
@@ -121,7 +119,7 @@ public class Utilities {
         }else if ("".equals(text)){
             return quote(text);
         }else{
-            String indicators = ":[]{},\"'|*&";
+            String indicators = ":[]{},\"'|*&-";
             boolean quoteIt = false;
             for (char c: indicators.toCharArray())
                 if (text.indexOf(c) != -1){
