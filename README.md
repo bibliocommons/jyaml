@@ -1,5 +1,5 @@
 # jyaml
-JYaml fork with bug fixes &amp; misc enhancements
+JYaml 1.3 fork with bug fixes &amp; misc enhancements
 
 *Bug Fixes*
 
